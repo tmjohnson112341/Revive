@@ -1,0 +1,56 @@
+.header {
+    background-color: #233347;
+    height: 150px;
+    display: flex;
+    padding: 1rem;
+    margin: 0;
+  }
+  
+  .navbar {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    border: 1px solid #46D9AD;
+    height: 2rem; /* Set consistent height */
+    padding: 0;
+    align-items: center;
+    margin-left: auto;
+  }
+  
+  .navbar li {
+    margin: 0;
+    padding: 0;
+    height: 100%; /* Make li fill the height of .navbar */
+    display: flex; /* Use Flexbox for alignment */
+    align-items: center; /* Center text vertically */
+  }
+  
+  .navbar a {
+    text-decoration: none;
+    font-family: "Exo 2", sans-serif;
+    color: white;
+    font-optical-sizing: auto;
+    letter-spacing: 2px;
+    display: flex; /* Use Flexbox for text alignment */
+    align-items: center; /* Center text vertically */
+    justify-content: center; /* Center text horizontally */
+    padding: 0 1rem; /* Add horizontal spacing */
+    height: 100%; /* Make <a> fill the height of its parent <li> */
+  }
+  
+  .navbar li:hover {
+    background-color: rgba(70, 217, 173, 0.25); /* Hover effect on entire section */
+  }
+  
+  .navbar a:hover {
+    color: #46D9AD; /* Change text color on hover */
+  }
+
+
+
+
+
+
+
+
